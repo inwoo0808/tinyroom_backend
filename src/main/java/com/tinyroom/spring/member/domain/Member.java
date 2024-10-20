@@ -24,6 +24,7 @@ public class Member {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int member_id;
+	private String pw;
 	private String email;
 	private String name;
 	private String nickname;
