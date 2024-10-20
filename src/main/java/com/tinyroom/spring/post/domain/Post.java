@@ -38,5 +38,6 @@ public class Post {
 	private Date date;
 	private String title;
 	private String content;
+	private String post_img;
 	private int is_active; //삭제 여부 판단
 }
